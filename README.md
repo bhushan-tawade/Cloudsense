@@ -64,7 +64,7 @@ cloudsense/
 
 ### 🔍 Search Feature
 
-![Search](public/UI/search.png)
+![Search](public/search.png)
 
 ## 🚀 Deployment
 
