@@ -1,0 +1,114 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glassMorf {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.12);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(7.1px);
+  -webkit-backdrop-filter: blur(7.1px);
+  border: 1px solid rgba(255, 255, 255, 0.17);
+}
+
+.glassMorf1 {
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(13.8px);
+  -webkit-backdrop-filter: blur(13.8px);
+}
+
+.glassMorf2 {
+  /* From https://css.glass */
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(11.2px);
+  -webkit-backdrop-filter: blur(11.2px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glassMorf3 {
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0.601);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20.5px);
+  -webkit-backdrop-filter: blur(20.5px);
+  color: white;
+}
+
+.glassMorf4 {
+  /* From https://css.glass */
+  background: rgba(0, 0, 0, 0);
+
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+.raleway {
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+.space-grotesk {
+  font-family: "Space Grotesk", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
+/* Menu.css */
+.menu {
+  position: absolute;
+  top: 0;
+  right: -100%;
+  width: 30%;
+  height: 100%;
+  background-color: white;
+  transition: right 0.5s ease-in-out;
+}
+
+.menu.active {
+  right: 0;
+}
+
+/* 
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes blink {
+  0%,
+  50% {
+    border-color: white;
+  }
+  100% {
+    border-color: transparent; /* Cursor disappears at the end */
+/* }
+}
+
+.typing-effect {
+  @apply inline-block;
+  animation: typing 3s steps(30, end), blink 0.5s step-end 3s forwards; /* Blink stops after typing */
+/* white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid white; */
+/* } */
