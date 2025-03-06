@@ -66,14 +66,6 @@ cloudsense/
 
 ![Search](public/search.png)
 
-## 🚀 Deployment
-
-You can deploy CloudSense using platforms like **Vercel** or **Netlify**.
-
-## 📚 License
-
-This project is licensed under the **MIT License**.
-
 ---
 
 Happy coding! 😊🌤️
